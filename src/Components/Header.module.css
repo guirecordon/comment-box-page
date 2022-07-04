@@ -1,0 +1,17 @@
+.header {
+  background: var(--gray-800);
+  padding: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header:before {
+  content: '';
+  display: inline-block;
+  width: 2rem;
+  height: 1.85rem;
+  background: url('../Assets/ignite-logo.svg');
+  background-size: cover;
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,84 @@
+.comment {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.comment img {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 8px;
+}
+
+.commentBox {
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.header button {
+  line-height: 0;
+  border-radius: 2px;
+}
+
+.header button:hover,
+.header button:focus {
+  color: var(--red-500);
+}
+
+.boxContent {
+  padding: 1rem;
+  background: var(--gray-700);
+  border-radius: 8px;
+}
+
+.boxContent p {
+  margin-top: 1rem;
+  color: var(--gray-300);
+  line-height: 1.6;
+}
+
+.credentials {
+  display: flex;
+  flex-direction: column;
+}
+
+.credentials strong {
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.credentials time {
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: var(--gray-400);
+}
+
+.comment footer {
+  margin-top: 1rem;
+}
+
+.comment footer button {
+  color: var(--gray-400);
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.comment footer button:hover {
+  color: var(--green-300);
+}
+
+.comment footer button svg {
+  margin-right: 0.5rem;
+}
+
+.comment footer button span::before {
+  content: '\2022';
+  padding: 0 0.25rem;
+}

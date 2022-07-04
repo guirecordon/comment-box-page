@@ -1,0 +1,51 @@
+:root {
+  --white: #fff;
+  --gray-100: #e1e1e6;
+  --gray-300: #c4c4cc;
+  --gray-400: #8d8d99;
+  --gray-600: #323238;
+  --gray-700: #29292e;
+  --gray-800: #202024;
+  --gray-900: #121214;
+
+  --green-300: #86efac;
+  --green-500: #00875f;
+
+  --red-500: #f75a68;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Spectral:wght@700&display=swap');
+
+:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px var(--green-500);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gray-900);
+  color: var(--gray-300);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textareas,
+button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+  color: currentColor;
+  cursor: pointer;
+}
